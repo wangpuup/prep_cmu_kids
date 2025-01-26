@@ -18,12 +18,12 @@ The recipe `filter_overlapping_prompt.sh` is for detecting and filtering out ove
 - Allows a small portion of overlapping prompts between test and train/dev splits.
 - Allows speaker and prompt overlaps between train and dev splits.
 
-The recipe for generating train/dev/test splits is available at `splits_3797_671_712/make_splits.py`.
+The recipe for generating train/dev/test splits is available at [splits_3797_671_712/make_splits.py](https://github.com/wangpuup/prep_cmu_kids/blob/main/splits_3797_671_712/make_splits.py).
 
 |           | train | dev | test |
 |-----------|-------|-----|------|
 | # utterances | 3797  | 671 | 712  |
-| # hours      | 6.73  | 1.17| 1.2  |
+| # hours      | 6.69  | 1.21| 1.20  |
 
 ---
 
@@ -32,12 +32,12 @@ The recipe for generating train/dev/test splits is available at `splits_3797_671
 - Retains the same amount of training utterances as the official splits.
 - Ensures non-overlapping speakers and prompts across train, test, and dev splits.
 
-The recipe for generating train/dev/test splits is available at `splits_3784_84_207/make_splits.sh`.
+The recipe for generating train/dev/test splits is available at [splits_3784_84_207/make_splits.sh](https://github.com/wangpuup/prep_cmu_kids/blob/main/splits_3784_84_207/make_splits.sh).
 
 |           | train | dev | test |
 |-----------|-------|-----|------|
 | # utterances | 3784  | 84  | 207  |
-| # hours      | 6.37  | 0.21| 0.35 |
+| # hours      | 6.73  | 0.21| 0.35 |
 
 ---
 
@@ -45,10 +45,10 @@ The recipe for generating train/dev/test splits is available at `splits_3784_84_
 
 - Built upon the `splits_3784_84_207`.
 
-The recipe for generating train/dev/test splits is available at `splits_3116_155_207/make_splits.sh`.
+The recipe for generating train/dev/test splits is available at [splits_3116_155_207/make_splits.sh](https://github.com/wangpuup/prep_cmu_kids/blob/main/splits_3116_155_207/make_splits.sh).
 
 |           | train | dev | test |
 |-----------|-------|-----|------|
 | # utterances | 3116  | 155 | 207  |
-| # hours      | 5.5   | 0.32| 0.35 |
+| # hours      | 5.50   | 0.32| 0.35 |
 
