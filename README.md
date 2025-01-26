@@ -6,7 +6,7 @@ Split files show utterance IDs of train, dev, and test splits. Each utterance ID
 
 The official splits ensure non-overlapping speakers across train, test, and dev splits, while allowing overlapping prompts.
 
-The recipe `filter_overlapping_prompt.sh` is for detecting and filtering out overlapping prompts that have been seen in the train and dev splits from the test splits.
+The recipe [filter_overlapping_prompt.sh](https://github.com/wangpuup/prep_cmu_kids/blob/main/filter_overlapping_prompt.sh) is for detecting and filtering out overlapping prompts that have been seen in the train and dev splits from the test splits.
 
 ---
 
