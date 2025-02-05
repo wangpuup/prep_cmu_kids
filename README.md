@@ -52,3 +52,14 @@ The recipe for generating train/dev/test splits is available at [splits_3116_155
 | # utterances | 3116  | 155 | 207  |
 | # hours      | 5.50   | 0.32| 0.35 |
 
+---
+
+### 4. `splits_4468_237_475`
+
+- Built upon the `splits_3797_671_712`.
+- Ensure dev and test splits have a similar distribution.
+
+|          | train | dev | test |
+|-----------|-------|-----|------|
+| # utterances | 4468  | 237  | 475  |
+| # hours      | 7.9  | 0.4| 0.8 |
